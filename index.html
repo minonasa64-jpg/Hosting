@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Boykta Store | متجر التطبيقات</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+    <!-- الهيدر -->
+    <header>
+        <div class="container header-content">
+            <div class="logo">
+                <i class="fa-solid fa-bag-shopping"></i>
+                <h1>Boykta <span>Store</span></h1>
+            </div>
+            <p class="subtitle">حمّل أحدث التطبيقات التي طورتها حصرياً</p>
+        </div>
+    </header>
+
+    <main class="container">
+        <!-- شريط البحث والتصنيفات -->
+        <div class="toolbar">
+            <div class="search-box">
+                <i class="fa-solid fa-search"></i>
+                <input type="text" id="searchInput" placeholder="ابحث عن تطبيق...">
+            </div>
+            <div class="categories" id="categoryFilters">
+                <button class="active" data-category="all">الكل</button>
+                <button data-category="أدوات">أدوات</button>
+                <button data-category="ألعاب">ألعاب</button>
+                <button data-category="تعليم">تعليم</button>
+            </div>
+        </div>
+
+        <!-- شبكة التطبيقات -->
+        <div class="apps-grid" id="appsGrid">
+            <!-- سيتم إضافة التطبيقات هنا تلقائياً بواسطة JavaScript -->
+        </div>
+    </main>
+
+    <footer>
+        <p>جميع الحقوق محفوظة &copy; <span id="year"></span> | <strong>Boykta Store</strong></p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+                              </html>
