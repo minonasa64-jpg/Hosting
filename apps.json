@@ -1,0 +1,22 @@
+[
+  {
+    "id": 1,
+    "name": "تطبيق المهام الذكي",
+    "description": "تطبيق بسيط وسريع لتنظيم مهامك اليومية وزيادة إنتاجيتك.",
+    "version": "1.0.2",
+    "size": "12 MB",
+    "category": "أدوات",
+    "icon": "https://cdn-icons-png.flaticon.com/512/2921/2921222.png",
+    "download_url": "https://example.com/app1.apk"
+  },
+  {
+    "id": 2,
+    "name": "لعبة الألغاز",
+    "description": "لعبة ألغاز ممتعة لتحدي ذكائك في أوقات فراغك.",
+    "version": "2.1.0",
+    "size": "25 MB",
+    "category": "ألعاب",
+    "icon": "https://cdn-icons-png.flaticon.com/512/3163/3163203.png",
+    "download_url": "https://example.com/app2.apk"
+  }
+]
